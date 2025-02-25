@@ -1,5 +1,8 @@
+import Header from "./ui/components/header";
+
 import { geistMono, geistSans } from "@/app/ui/fonts"
 import "./globals.css";
+import { ThemeProvider } from "@/app/ui/components/theme-provider"
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +15,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            {children}
+          </ThemeProvider>
       </body>
     </html>
   );
