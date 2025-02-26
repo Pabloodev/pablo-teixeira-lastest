@@ -6,8 +6,6 @@ body {
   font-family: Geist;
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -70,5 +68,10 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.112) 2%,
+      transparent 5%
+    );
+    background-size: 5px 5px;
   }
 }

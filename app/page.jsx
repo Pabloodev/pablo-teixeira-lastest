@@ -1,13 +1,11 @@
-export default function Home() {
+import Home from "./pages/Home"
+import Skills from "./pages/Skills"
+
+export default function Page() {
   return (
-    <div className="grid text-center place-items-center h-screen">
-      <div>
-        <div>
-          <h1>Pablo Teixeira</h1>
-          <p>Fullstack Developer</p>
-        </div>
-        <img src="" alt="" />
-      </div>
-    </div>
-  );
+    <>
+   <Home />
+   <Skills />
+   </>
+  )
 }

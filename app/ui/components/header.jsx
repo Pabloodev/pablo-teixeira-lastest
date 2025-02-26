@@ -2,7 +2,7 @@ import { ModeToggle } from "@/app/ui/components/mode-toggle"
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4">
+    <header className="flex justify-between items-center p-4 px-8">
       <div>
         <span>pablodev</span>
         <span>.</span>
