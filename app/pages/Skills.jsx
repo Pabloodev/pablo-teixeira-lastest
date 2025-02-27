@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center space-y-8">
+    <div className="flex flex-col items-center space-y-8 min-h-screen">
       <h1>Skills</h1>
 
       {/* Base Skills */}
