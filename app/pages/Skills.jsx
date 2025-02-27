@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <div className="flex flex-col items-center space-y-8 min-h-screen">
-      <h1>Skills</h1>
+      <h1 className="text-2xl">Skills</h1>
 
       {/* Base Skills */}
       <div className="flex items-center space-x-10">
@@ -50,6 +50,10 @@ export default function Skills() {
           <Image src="/vercel-icon.svg" alt="" width={60} height={60} />
         </div>
       </div>
+      </div>
+
+      <div>
+        <p className="text-gray-400">These are some skills that I have, of course I have some better than others but I am always studying and putting them into practice.</p>
       </div>
     </div>
   );

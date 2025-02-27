@@ -31,10 +31,11 @@ export default function Home() {
           <Image
             className="rounded-full"
             src={"/foto-portfolio.png"}
-            width={600}
-            height={600}
+            width={500}
+            height={500}
             quality={100}
             alt="Pablo Teixeira picture"
+            title="Pablo Teixeira (pabdev)"
           />
         </div>
       </div>
